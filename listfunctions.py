@@ -1,0 +1,26 @@
+lucky_numbers = [3, 423, 19, 9, 12, 34]
+friends = ["Ігор", "Олексій", "Олег", "Саша", "Сергій", "Антон", "Ігор"]
+print(friends)
+friends.extend(lucky_numbers)
+print(friends)
+friends.append("Ігор")
+print(friends)
+friends.insert(1, "Marko")
+print(friends)
+friends.remove("Marko")
+print(friends)
+friends.pop()
+print(friends)
+lucky_numbers.sort()
+print(lucky_numbers)
+print(friends)
+print(friends.index("Саша"))
+print(friends.count("Ігор"))
+
+lucky_numbers.reverse()
+print(lucky_numbers)
+
+friends2= friends.copy()
+print(friends2)
+friends.clear()
+print(friends)
